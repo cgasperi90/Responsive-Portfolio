@@ -1,0 +1,138 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(email-pattern.png);
+    color: grey;
+    line-height: 35px;
+}
+#navBar {
+    background-color: #ffffff;
+    border-bottom: solid 3px #cccccc;
+}
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#myName {
+    background-color: #4aaaa5;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: 0 16%;
+    font-size: 32px;
+}
+#container {
+    background-color: #ffffff;
+    margin: 30px 16%;
+    padding: 20px;
+    border: solid 1px lightgrey;
+}
+#submit {
+    background-color: #4aaaa5;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+}
+footer {
+    background-color: #666666;
+    color: lightgrey;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-top: solid 8px #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+a:link {
+    text-decoration: none;
+    color: #cccccc;
+}
+li {
+    display: inline;
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 25px;
+    font-size: 20px;
+    margin: 0 16%;
+}
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+#contact {
+    font-size: 32px;
+    color: #4aaaa5;
+    border-bottom: solid 2px #cccccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.textArea {
+    width: 98%;
+    height: 25px;
+}
+#message {
+    width: 98%;
+    height: 200px;
+}
+a:hover {
+    color: #4aaaa5;
+}
+#about {
+    border-right: solid 1px grey;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+#portfolio {
+    border-right: solid 1px grey;
+    padding-right: 10px;
+}
+@media screen and (max-width: 980px) {
+    .container {
+        margin: 20px;
+        height: auto;
+    }
+    .header {
+        width: auto;
+    }
+    #links {
+      width: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px;
+        height: auto;
+    }
+    .header {
+        width: auto;
+    }
+    #links {
+      width: auto;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container {
+        margin: 20px;
+        height: auto;
+    }
+    .header {
+        width: auto;
+    }
+    #links {
+      width: auto;
+    }
+}
